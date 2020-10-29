@@ -1,0 +1,57 @@
+#nav {
+    text-align: end;
+}
+
+#user-icon {
+    border-radius: 50%;
+    padding-top: 0%;
+}
+
+#logo {
+    margin-left: 38%;
+    margin-top: 2%;
+    padding: 100px;
+}
+
+#search {
+   margin-left: 46%;
+   margin-top: -4%;
+   margin-bottom: 1%;
+}
+
+.buttons {
+    position: relative;
+    margin-left: 44%;
+    margin-bottom: 1%
+}
+
+.text {
+    text-align: center;
+}
+
+img {
+    justify-content: center;
+}
+
+#footer {
+    margin-top: 28%;
+    margin-left: 1%;
+    background-color: rgb(238, 238, 238);
+    
+}
+
+.region {
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+#right{
+    float: right;
+    margin-right: 1%;
+}
+
+#left {
+display: grid;
+grid-auto-flow: column;
+grid-auto-columns: 8%;
+} 
