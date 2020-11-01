@@ -1,6 +1,12 @@
 #nav {
-    text-align: end;
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    grid-auto-flow: column;
+    } 
+    
 }
+
 
 #user-icon {
     border-radius: 50%;
