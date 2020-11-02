@@ -6,6 +6,15 @@
     grid-column-gap: 15px;
     } 
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 #user-icon {
     border-radius: 50%;
     padding-top: 0%;
