@@ -24,45 +24,41 @@ a:hover {
 /* Main page */
 #main {
     display: grid;
-    justify-content: center;
+    justify-items: center;
+    grid-gap: 10px;
+    padding-top: 8%;
+
 }
 
-img {
-    
-}
-
-#search {
- 
-}
-
-.buttons {
- 
+.language {
+    text-decoration: underline;
 }
 
 .text {
     text-align: center;
 }
 
+.left {
+    float: right;
+}
+
 /* Footer section */
 #footer {
-    margin-top: 28%;
-    margin-left: 1%;
+    display: grid;
+    
+    position: absolute; 
+    bottom: 0px;
+    
     background-color: rgb(238, 238, 238);
+}
+
+
+.right{
+   justify-items: flex-end;
     
 }
 
-.region {
-    margin-bottom: 10px;
-    line-height: 20px;
-}
 
-#right{
-    float: right;
-    margin-right: 1%;
-}
-
-#left {
-display: grid;
-grid-auto-flow: column;
-grid-auto-columns: 8%;
-} 
+#bottom {
+    
+}  
