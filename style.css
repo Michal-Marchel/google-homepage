@@ -27,7 +27,6 @@ a:hover {
     justify-items: center;
     grid-gap: 10px;
     padding-top: 8%;
-
 }
 
 
@@ -52,12 +51,10 @@ a:hover {
 
 .top {
     padding-top: 8px;
-    
 }
 
 .bottom {
     padding-top: 8px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
