@@ -30,6 +30,7 @@ a:hover {
 
 }
 
+
 .language {
     text-decoration: underline;
 }
@@ -38,27 +39,25 @@ a:hover {
     text-align: center;
 }
 
-.left {
-    float: right;
-}
 
 /* Footer section */
 #footer {
-    display: grid;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    background-color: #efefef;
+} 
+
+.top {
+    padding-top: 8px;
     
-    position: absolute; 
-    bottom: 0px;
-    
-    background-color: rgb(238, 238, 238);
 }
 
-
-.right{
-   justify-items: flex-end;
+.bottom {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
     
 }
-
-
-#bottom {
-    
-}  
